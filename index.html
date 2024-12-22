@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Exam System</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <nav>
+        <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+            <h1 class="center" >SEATING GENIUS</h1>
+            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class="center"><a href="#loginForm">loginForm</a></li>
+                <li class="center"><a href="register.html">Rigestration form</a></li>
+            </ul>
+        </div>
+    </nav>
+    <img src="C:\Users\hp\Documents\kanuweather\assets\images\seating-1.jpg" alt="seating-1.jpg" class="center">
+    <h2 class="center"><u>Introduction of Exam Genius</u></h2>
+    <p class="center"><b>Intelligent Exam Seating Management(IESM)</b> This project provides a way to allocate exam hall for <br>
+        each students of various branches and sections without any clash. It also keep a check at the
+        duties of various teachers at different classes during exams.<br>
+        In these project has been developed to over ride the problem prevailing in practicing manual system. <br>
+        This website is supported to eliminate and reduce faced by existing system.<br>
+        The system stores list of classes, teachers and capacity of rooms and list of students appearing <br>
+        the exam on each day.<br>
+        The system also provide a facility of getting a chart of allotment to administrator and a email<br>
+        notification of allotment of every individual.</p>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <a href="admindashboard.html" class="button"> Login </a>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

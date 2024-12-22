@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="admin-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" style="width: 180px;">
+      <h2>Admin Dashboard</h2>
+      <nav>
+        <ul>
+          <li><a href="manageclass.html">Manage Classes</a></li>
+          <li><a href="managestudent.html">Manage Students</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="allotment.html">Allotment</a></li>
+        </ul>
+      </nav>
+    </aside>
+      <!-- Manage Rooms Section -->
+      <section id="manage-rooms">
+        <h2>Rooms</h2>
+        <table style="align-items: left;">
+          <thead>
+            <tr>
+              <th>Room Number</th>
+              <th>Floor</th>
+              <th>Capacity</th>
+              <th>Vacancy</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>101</td>
+              <td>1st</td>
+              <td>40</td>
+              <td>10</td>
+              <td><button class="btn-edit">Edit</button></td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>1st</td>
+              <td>50</td>
+              <td>15</td>
+              <td><button class="btn-edit">Edit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Allotment Section -->
+      <section id="allotment">
+        <h2>Allotment</h2>
+        <p>Allocate students to rooms for exams.</p>
+        <!-- Example: Allotment Management -->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2024 Exam Seating Arrangement. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script src="scripting.js"></script>
+</body>
+</html>

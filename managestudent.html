@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manage Students</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="admin-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Admin Dashboard</h2>
+      <nav>
+        <ul>
+          <li><a href="manageclass.html">Dashboard</a></li>
+          <li><a href="managestudents.html" class="active">Manage Students</a></li>
+          <li><a href="rooms.html">Manage Rooms</a></li>
+          <li><a href="allotment.html">Allotment</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <h1>Manage Students</h1>
+      </header>
+
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Class</th>
+              <th>Roll Number</th>
+              <th>Password</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>10A</td>
+              <td>101</td>
+              <td>password123</td>
+              <td>
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+              </td>
+            </tr>
+            <tr>
+            <td>Jane Smith</td>
+            <td>10B</td>
+            <td>102</td>
+            <td>securepass</td>
+            <td>
+                <button class="btn-edit">Edit</button>
+                <button class="btn-delete">Delete</button>
+            </td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <p>© 2024 Exam Seating Arrangement. All Rights Reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
